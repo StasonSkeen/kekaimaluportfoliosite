@@ -1,0 +1,38 @@
+.revealer {
+    position: relative;
+  }
+
+  .revealme1 {
+    transition: all 1s ease;
+    opacity: 0;
+  }
+
+  .active .revealme1 {
+    opacity: 1;
+  }
+
+  .mysection1 .revealme1 {
+    transform: translateX(2em);
+  }
+  .mysection1.active .revealme1 {
+    transform: translateX(0);
+  }
+
+
+
+  .revealme2 {
+    transition: all 1s ease;
+    opacity: 0;
+  }
+
+  .active .revealme2 {
+    opacity: 1;
+  }
+
+  .mysection1 .revealme2 {
+    transform: translateX(-2em);
+  }
+  .mysection1.active .revealme2 {
+    transform: translateX(0);
+  }
+
